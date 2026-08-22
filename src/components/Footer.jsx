@@ -1,0 +1,5 @@
+import Image from "next/image";
+
+export default function Footer() {
+  return <footer className="site-footer"><div className="container footer-top"><div className="footer-brand"><Image src="/logo.svg" alt="Kreative Grafix" width={58} height={60} /><p>Design that thinks.<br />Technology that performs.<br />Experiences that connect.</p></div><div className="footer-column"><span>Explore</span><a href="#home">Home</a><a href="#services">Services</a><a href="#work">Work</a><a href="#about">About</a></div><div className="footer-column"><span>Services</span><a href="#services">Web Design</a><a href="#services">Web Development</a><a href="#services">UI/UX Design</a><a href="#services">Graphic Design</a></div><div className="footer-column"><span>Say hello</span><a href="mailto:hello@kreativegrafix.com">hello@kreativegrafix.com</a><a href="#contact">Start a project ↗</a><span className="footer-social">Instagram / LinkedIn</span></div></div><div className="container footer-bottom"><span>© 2026 Kreative Grafix</span><span>Independent digital studio</span><a href="#home">Back to top ↑</a></div></footer>;
+}

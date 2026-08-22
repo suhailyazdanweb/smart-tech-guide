@@ -1,0 +1,32 @@
+export const projects = [
+  {
+    number: "01",
+    title: "Northstar / Digital Product",
+    category: "UI/UX + Web Design",
+    description: "A considered interface direction for products that need clarity, confidence and room to grow.",
+    tags: ["UX strategy", "Interface design"],
+    image: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1800&q=85",
+    alt: "Colourful interface design studies arranged on a desk",
+    slug: "northstar-digital-product",
+  },
+  {
+    number: "02",
+    title: "Field Notes / Identity",
+    category: "Graphic Design + Digital",
+    description: "A flexible visual language built to move between editorial print and the screen.",
+    tags: ["Art direction", "Brand system"],
+    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1400&q=85",
+    alt: "Graphic design materials with bold typographic compositions",
+    slug: "field-notes-identity",
+  },
+  {
+    number: "03",
+    title: "Signal / Web Experience",
+    category: "Web Design + Development",
+    description: "A sharp, responsive digital home for a team doing meaningful work in public.",
+    tags: ["Next.js", "Art direction"],
+    image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1400&q=85",
+    alt: "Abstract yellow and black digital design composition",
+    slug: "signal-web-experience",
+  },
+];
