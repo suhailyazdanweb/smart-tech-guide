@@ -4,10 +4,10 @@ export default function Hero() {
       <div className="absolute inset-0 opacity-30 [background-image:linear-gradient(var(--line)_1px,transparent_1px),linear-gradient(90deg,var(--line)_1px,transparent_1px)] [background-size:80px_80px]" aria-hidden="true" />
       <div className="relative mx-auto grid min-h-[535px] w-full max-w-[1280px] grid-cols-[1.05fr_.95fr] px-8 max-[900px]:grid-cols-1 max-[640px]:px-5">
         <div className="relative z-[1] max-w-[760px] self-center">
-          <p className="mb-7 flex items-center gap-2.5 text-[11px] font-bold uppercase tracking-[.14em] text-[var(--teal-dark)] before:block before:h-[7px] before:w-[7px] before:bg-current">Independent digital studio</p>
-          <h1 className="m-0 max-w-[800px] font-serif text-[clamp(46px,7vw,104px)] font-normal leading-[.94] tracking-[-.04em] max-[640px]:text-[clamp(46px,14vw,72px)]">Designing digital experiences.<br /><em className="text-[var(--teal-dark)] not-italic">Building what&apos;s next.</em></h1>
-          <p className="my-[30px] mb-[34px] max-w-[440px] text-base leading-[1.55] text-[var(--muted)]">Kreative Grafix combines UI/UX, web design, development and graphic design to make digital work with clarity and character.</p>
-          <div className="flex flex-wrap gap-3">
+          <p className="animate-fade-up mb-7 flex items-center gap-2.5 text-[11px] font-bold uppercase tracking-[.14em] text-[var(--teal-dark)] before:block before:h-[7px] before:w-[7px] before:bg-current">Independent digital studio</p>
+          <h1 className="animate-fade-up m-0 max-w-[800px] font-serif text-[clamp(46px,7vw,104px)] font-normal leading-[.94] tracking-[-.03em] max-[640px]:text-[clamp(46px,14vw,72px)] [animation-delay:100ms]">Designing digital experiences.<br /><em className="text-[var(--teal-dark)] not-italic">Building what&apos;s next.</em></h1>
+          <p className="animate-fade-up my-[30px] mb-[34px] max-w-[440px] text-base leading-[1.6] text-[var(--muted)] [animation-delay:180ms]">Kreative Grafix combines UI/UX, web design, development and graphic design to make digital work with clarity and character.</p>
+          <div className="animate-fade-up flex flex-wrap gap-3 [animation-delay:260ms]">
             <a className="inline-flex min-h-[52px] items-center justify-center gap-4 bg-[var(--teal)] px-[21px] text-xs font-bold uppercase tracking-[.08em] transition hover:-translate-y-0.5 hover:bg-[var(--coral)]" href="#contact">Start a project <span className="text-[17px]">↗</span></a>
             <a className="inline-flex min-h-[52px] items-center justify-center gap-4 border border-current px-[21px] text-xs font-bold uppercase tracking-[.08em] transition hover:-translate-y-0.5 hover:bg-[var(--ink)] hover:text-[var(--background)]" href="#work">Explore our work <span className="text-[17px]">↓</span></a>
           </div>

@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Process from "../components/Process";
+import Reveal from "../components/Reveal";
 import SelectedWork from "../components/SelectedWork";
 import Services from "../components/Services";
 import Technology from "../components/Technology";
@@ -16,14 +17,14 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <Experience />
-        <Services />
-        <DesignDevelopment />
-        <SelectedWork />
-        <Technology />
-        <Process />
-        <AboutPreview />
-        <CTA />
+        <Reveal><Experience /></Reveal>
+        <Reveal delay={40}><Services /></Reveal>
+        <Reveal><DesignDevelopment /></Reveal>
+        <Reveal delay={40}><SelectedWork /></Reveal>
+        <Reveal><Technology /></Reveal>
+        <Reveal delay={40}><Process /></Reveal>
+        <Reveal><AboutPreview /></Reveal>
+        <Reveal delay={40}><CTA /></Reveal>
       </main>
       <Footer />
     </div>

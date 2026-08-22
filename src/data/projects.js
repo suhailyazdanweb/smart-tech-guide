@@ -8,6 +8,10 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1800&q=85",
     alt: "Colourful interface design studies arranged on a desk",
     slug: "northstar-digital-product",
+    overview: "An exploratory interface direction for a digital product that needs clarity and confidence.",
+    challenge: "How might a complex product feel more approachable without losing its depth?",
+    approach: "We would begin with the structure: clarify the key journeys, give the content room to breathe, then build a visual system that can flex as the product grows.",
+    sections: ["UX strategy", "Interface design", "Design system", "Responsive direction"],
   },
   {
     number: "02",
@@ -18,6 +22,10 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1400&q=85",
     alt: "Graphic design materials with bold typographic compositions",
     slug: "field-notes-identity",
+    overview: "An exploratory identity system designed to move between editorial print and the screen.",
+    challenge: "How might a visual identity stay expressive while remaining useful across many formats?",
+    approach: "A flexible typographic language, clear rules and a small set of recognisable graphic moves create a system with both character and control.",
+    sections: ["Art direction", "Brand system", "Typography", "Digital assets"],
   },
   {
     number: "03",
@@ -28,5 +36,9 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1400&q=85",
     alt: "Abstract yellow and black digital design composition",
     slug: "signal-web-experience",
+    overview: "An exploratory web experience built around clarity, pace and a strong editorial point of view.",
+    challenge: "How might a digital home make meaningful work easier to understand and act on?",
+    approach: "The direction pairs a clear content hierarchy with a responsive visual system, leaving the technology quiet enough for the message to lead.",
+    sections: ["Web design", "Art direction", "Next.js", "Responsive build"],
   },
 ];
