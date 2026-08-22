@@ -1,11 +1,13 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
-    <section className="relative min-h-[min(820px,100vh)] overflow-hidden bg-[var(--background)] px-0 pb-[34px] pt-[180px] max-[900px]:pb-[100px] max-[640px]:pt-[130px]" id="home">
+    <section className="relative min-h-[min(820px,100vh)] overflow-hidden bg-[var(--background)] px-0 pb-[82px] pt-[120px] max-[900px]:pb-[130px] max-[640px]:pt-[105px]" id="home">
       <div className="absolute inset-0 opacity-30 [background-image:linear-gradient(var(--line)_1px,transparent_1px),linear-gradient(90deg,var(--line)_1px,transparent_1px)] [background-size:80px_80px]" aria-hidden="true" />
       <div className="relative mx-auto grid min-h-[535px] w-full max-w-[1280px] grid-cols-[1.05fr_.95fr] px-8 max-[900px]:grid-cols-1 max-[640px]:px-5">
         <div className="relative z-[1] max-w-[760px] self-center">
           <p className="animate-fade-up mb-7 flex items-center gap-2.5 text-[11px] font-bold uppercase tracking-[.14em] text-[var(--teal-dark)] before:block before:h-[7px] before:w-[7px] before:bg-current">Independent digital studio</p>
-          <h1 className="animate-fade-up m-0 max-w-[800px] font-serif text-[clamp(46px,7vw,104px)] font-normal leading-[.94] tracking-[-.03em] max-[640px]:text-[clamp(46px,14vw,72px)] [animation-delay:100ms]">Designing digital experiences.<br /><em className="text-[var(--teal-dark)] not-italic">Building what&apos;s next.</em></h1>
+          <h1 className="animate-fade-up m-0 max-w-[800px] font-serif text-[clamp(44px,6vw,88px)] font-normal leading-[.94] tracking-[-.025em] max-[640px]:text-[clamp(44px,12vw,64px)] [animation-delay:100ms]">Designing digital experiences.<br /><em className="text-[var(--teal-dark)] not-italic">Building what&apos;s next.</em></h1>
           <p className="animate-fade-up my-[30px] mb-[34px] max-w-[440px] text-base leading-[1.6] text-[var(--muted)] [animation-delay:180ms]">Kreative Grafix combines UI/UX, web design, development and graphic design to make digital work with clarity and character.</p>
           <div className="animate-fade-up flex flex-wrap gap-3 [animation-delay:260ms]">
             <a className="inline-flex min-h-[52px] items-center justify-center gap-4 bg-[var(--teal)] px-[21px] text-xs font-bold uppercase tracking-[.08em] transition hover:-translate-y-0.5 hover:bg-[var(--coral)]" href="#contact">Start a project <span className="text-[17px]">↗</span></a>
@@ -17,7 +19,7 @@ export default function Hero() {
           <div className="absolute left-1/2 top-[48%] h-[300px] w-[430px] -translate-x-1/2 -translate-y-1/2 rotate-[44deg] rounded-full border border-[var(--coral)] max-[640px]:h-[220px] max-[640px]:w-[320px]" />
           <div className="absolute left-[18%] top-[92px] h-[300px] w-[370px] -rotate-[7deg] bg-[var(--dark)] p-5 text-[var(--surface)] shadow-[14px_17px_0_var(--coral)] max-[640px]:left-[8%] max-[640px]:top-[55px] max-[640px]:h-[220px] max-[640px]:w-[275px] max-[640px]:p-3.5">
             <div className="flex justify-between text-[9px] uppercase tracking-[.11em]"><span>KG / 01</span><span>digital studio</span></div>
-            <div className="my-[50px] font-serif text-[102px] leading-none tracking-[-.12em] text-[var(--teal)] max-[640px]:my-[37px] max-[640px]:text-[73px]">K<span className="font-sans text-[58px] text-[var(--coral)] max-[640px]:text-[42px]">×</span>G</div>
+            <div className="my-[42px] flex items-center gap-4 max-[640px]:my-[28px] max-[640px]:gap-2.5"><Image className="h-[92px] w-[92px] object-contain max-[640px]:h-[62px] max-[640px]:w-[62px]" src="/logo.svg" alt="Kreative Grafix logo" width={145} height={150} /><div className="relative h-[92px] flex-1 overflow-hidden max-[640px]:h-[62px]" aria-hidden="true"><span className="absolute -left-[12%] top-[10%] h-[76%] w-[130%] rounded-[50%] border border-[var(--teal)]" /><span className="absolute -left-[20%] top-[27%] h-[76%] w-[135%] rounded-[50%] border border-[var(--coral)]" /><span className="absolute -left-[4%] top-[43%] h-[70%] w-[120%] rounded-[50%] border border-[var(--yellow)]" /></div></div>
             <div className="flex justify-between text-[9px] uppercase tracking-[.11em]"><span>Design that thinks.</span><span>2026</span></div>
           </div>
           <div className="absolute right-[1%] top-[30px] flex h-[145px] w-[145px] rotate-[12deg] items-center justify-between bg-[var(--yellow)] p-[18px] text-[var(--ink)] max-[640px]:h-[105px] max-[640px]:w-[105px]"><span className="text-[10px] font-bold leading-tight">INTERFACE<br />AS MATERIAL</span><span className="h-[15px] w-[15px] rounded-full bg-[var(--coral)]" /></div>
