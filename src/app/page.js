@@ -12,7 +12,7 @@ import Technology from "../components/Technology";
 
 export default function Home() {
   return (
-    <div className="site-shell">
+    <div className="min-h-screen overflow-hidden">
       <Header />
       <main>
         <Hero />
