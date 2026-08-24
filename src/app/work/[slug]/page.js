@@ -13,7 +13,7 @@ export async function generateMetadata({ params }) {
   const project = projects.find((item) => item.slug === slug);
   if (!project) return {};
   return {
-    title: `${project.title} | Kreative Grafix`,
+    title: `${project.title} | Smart Tech Guide`,
     description: project.overview,
   };
 }

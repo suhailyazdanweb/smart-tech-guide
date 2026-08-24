@@ -12,11 +12,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Kreative Grafix | Design that thinks",
+  title: "Smart Tech Guide | Design that thinks",
   description:
-    "Kreative Grafix is an independent digital studio combining UI/UX, web design, development and graphic design.",
+    "Smart Tech Guide is an independent digital studio combining UI/UX, web design, development and graphic design.",
   openGraph: {
-    title: "Kreative Grafix | Design that thinks",
+    title: "Smart Tech Guide | Design that thinks",
     description:
       "An independent digital studio creating distinctive digital experiences.",
     type: "website",

@@ -26,7 +26,7 @@ export default function ContactForm() {
     const subject = encodeURIComponent(`Project enquiry from ${form.name}`);
     const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\nProject: ${form.project}\n\n${form.message}`);
     setStatus({ type: "success", message: "Your enquiry is ready. Your email client will open to send it." });
-    window.location.href = `mailto:hello@kreativegrafix.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:hello@smarttechguide.com?subject=${subject}&body=${body}`;
   }
 
   return (

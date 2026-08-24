@@ -3,8 +3,8 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 export const metadata = {
-  title: "Start a Project | Kreative Grafix",
-  description: "Tell Kreative Grafix about the digital experience you want to build.",
+  title: "Start a Project | Smart Tech Guide",
+  description: "Tell Smart Tech Guide about the digital experience you want to build.",
 };
 
 export default function ContactPage() {
