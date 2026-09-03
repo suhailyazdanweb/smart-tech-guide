@@ -1,14 +1,14 @@
 export const projects = [
   {
     number: "01",
-    title: "Northstar / Digital Product",
+    title: "Fragrance Boutique / Digital Product",
     category: "UI/UX + Web Design",
-    description: "A considered interface direction for products that need clarity, confidence and room to grow.",
+    description: "Fragrance Boutique is a digital product that needs clarity and confidence. We explored an interface direction that makes the complex approachable.",
     tags: ["UX strategy", "Interface design"],
     image: "/project_covers/FragranceBoutique.jpg",
     alt: "Colourful interface design studies arranged on a desk",
-    slug: "northstar-digital-product",
-    overview: "An exploratory interface direction for a digital product that needs clarity and confidence.",
+    slug: "fragrance-boutique-digital-product",
+    overview: "It is a website to showcase Fragrance and Sceneted Candles Products. The goal was to create a digital product that is approachable and easy to use, while still maintaining the depth and complexity of the products.",
     challenge: "How might a complex product feel more approachable without losing its depth?",
     approach: "We would begin with the structure: clarify the key journeys, give the content room to breathe, then build a visual system that can flex as the product grows.",
     sections: ["UX strategy", "Interface design", "Design system", "Responsive direction"],
